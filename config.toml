@@ -9,6 +9,7 @@ compression-level = 9
 
 [YouTube]
 build-mode = "both"
+arch = "both"
 excluded-patches = "'Downloads' 'Seekbar thumbnails' 'Hide player overlay buttons' 'Change form factor' 'Hide layout components' 'Hide player flyout menu items' 'Disable rolling number animations' 'Hide seekbar' 'Hide Shorts components' 'Wide searchbar' 'Open Shorts in regular player' 'Change start page' 'Disable resuming Shorts on startup' 'Alternative thumbnails' 'Announcements' 'Always repeat' 'Enable debugging' 'Disable zoom haptics' 'Restore old video quality menu'"
 patcher-args = "-Oheader=premium*header -OiconPath=ReVanced*Logo -OgmsCoreVendorGroupId=app.revanced -OdarkThemeBackgroundColor=@android:color/black -OlightThemeBackgroundColor=@android:colour/white "
 included-patches = "'Change header'"
