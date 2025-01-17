@@ -9,7 +9,7 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 [YouTube]
 build-mode = "both"
 excluded-patches = "'Downloads' 'Seekbar thumbnails' 'Hide player overlay buttons' 'Change form factor' 'Hide layout components' 'Hide player flyout menu items' 'Disable rolling number animations' 'Hide seekbar' 'Hide Shorts components' 'Wide searchbar' 'Open Shorts in regular player' 'Change start page' 'Disable resuming Shorts on startup' 'Alternative thumbnails' 'Announcements' 'Always repeat' 'Enable debugging' 'Disable zoom haptics' 'Restore old video quality menu'"
-patcher-args = "-Oheader=premium*header -OappName=YouTube ReVanced -OiconPath=ReVanced*Logo -OgmsCoreVendorGroupId=app.revanced -OdarkThemeBackgroundColor=@android:color/black -OlightThemeBackgroundColor=@android:colour/white "
+patcher-args = "-Oheader=premium*header -OiconPath=ReVanced*Logo -OgmsCoreVendorGroupId=app.revanced -OdarkThemeBackgroundColor=@android:color/black -OlightThemeBackgroundColor=@android:colour/white "
 included-patches = "'Change header'"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
