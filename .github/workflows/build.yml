@@ -114,7 +114,7 @@ jobs:
         run: |
           cd build || { echo "build folder not found"; exit 1; }
 
-          TG_CHAT="-1001671138702"
+          TG_CHAT="@moistuffs"
           NL=$'\n'
           APKS=""
           MODULES=""
