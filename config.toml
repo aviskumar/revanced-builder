@@ -1,5 +1,5 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 1
+#parallel-jobs = 1
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -8,8 +8,9 @@ parallel-jobs = 1
 
 [YouTube]
 build-mode = "both"
-excluded-patches = ""
-included-patches = ""
+excluded-patches = "'Downloads' 'Seekbar thumbnails' 'Hide player overlay buttons' 'Change form factor' 'Hide layout components' 'Hide player flyout menu items' 'Disable rolling number animations' 'Hide seekbar' 'Hide Shorts components' 'Wide searchbar' 'Open Shorts in regular player' 'Change start page' 'Disable resuming Shorts on startup' 'Alternative thumbnails' 'Announcements' 'Always repeat' 'Enable debugging' 'Disable zoom haptics' 'Restore old video quality menu'"
+patcher-args = "-Oheader=premium*header -OappName=YouTube ReVanced -OiconPath=ReVanced*Logo -OgmsCoreVendorGroupId=app.revanced -OdarkThemeBackgroundColor=@android:color/black -OlightThemeBackgroundColor=@android:colour/white "
+included-patches = "'Change header'"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
