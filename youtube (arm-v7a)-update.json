@@ -1,6 +1,6 @@
 {
-  "version": "v19.47.53 (patches: 5.11.0)",
-  "versionCode": 8,
-  "zipUrl": "https://github.com/aviskumar/revanced-builder/releases/download/8/youtube-revanced-magisk-v19.47.53-arm-v7a.zip",
+  "version": "v19.47.53 (patches: 5.12.0)",
+  "versionCode": 9,
+  "zipUrl": "https://github.com/aviskumar/revanced-builder/releases/download/9/youtube-revanced-magisk-v19.47.53-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/aviskumar/revanced-builder/update/build.md"
 }
