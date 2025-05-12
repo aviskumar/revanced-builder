@@ -1,6 +1,6 @@
 {
-  "version": "v7.22.0.740933857 (patches: 5.18.0)",
-  "versionCode": 14,
-  "zipUrl": "https://github.com/aviskumar/revanced-builder/releases/download/14/googlephotos-revanced-magisk-v7.22.0.740933857-arm64-v8a.zip",
+  "version": "v7.28.0.754713439 (patches: 5.23.0)",
+  "versionCode": 19,
+  "zipUrl": "https://github.com/aviskumar/revanced-builder/releases/download/19/googlephotos-revanced-magisk-v7.28.0.754713439-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/aviskumar/revanced-builder/update/build.md"
 }
