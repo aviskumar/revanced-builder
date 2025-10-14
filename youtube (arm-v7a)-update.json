@@ -1,6 +1,6 @@
 {
-  "version": "v20.14.43 (patches: 5.42.1)",
-  "versionCode": 36,
-  "zipUrl": "https://github.com/aviskumar/revanced-builder/releases/download/36/youtube-revanced-magisk-v20.14.43-arm-v7a.zip",
+  "version": "v20.14.43 (patches: 5.43.0)",
+  "versionCode": 37,
+  "zipUrl": "https://github.com/aviskumar/revanced-builder/releases/download/37/youtube-revanced-magisk-v20.14.43-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/aviskumar/revanced-builder/update/build.md"
 }
